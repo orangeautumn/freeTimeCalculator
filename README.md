@@ -24,10 +24,13 @@ npm install
 
 npm run start
 ```
-Open Postman , and  import the postman collections file. 
+# Open Postman , and  import the postman collections file "freeTimeCalculator.postman_collection"
+. 
 
 ### Run Tests
 ```
-npm test
+npm run test
+
+## we can also see code coverage under the coverage folder
 ```
 
