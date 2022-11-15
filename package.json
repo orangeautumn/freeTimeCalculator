@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "jest --coverage"
-   },
+  },
   "keywords": [],
   "author": "Chanakya",
   "license": "",
