@@ -24,6 +24,7 @@ npm install
 
 npm run start
 ```
+Open Postman , and  import the postman collections file. 
 
 ### Run Tests
 ```

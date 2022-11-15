@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "af4a42af-a6c2-401d-a00a-f7aa4fe1fdc7",
+		"name": "freeTimeCalculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"availableTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"10:00\"\n        }\n    ],\n    \"meetingTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"9:30\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/freeTime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freeTime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"availableTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"10:00\"\n        }\n    ],\n    \"meetingTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"10:00\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/freeTime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freeTime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"availableTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"9:30\"\n        }\n    ],\n    \"meetingTimes\": [\n        {\n            \"startTime\": \"9:30\",\n            \"endTime\": \"15:00\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/freeTime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freeTime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"availableTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"9:30\"\n        },\n         {\n            \"startTime\": \"10:00\",\n            \"endTime\": \"10:30\"\n        }\n    ],\n    \"meetingTimes\": [\n        {\n            \"startTime\": \"9:15\",\n            \"endTime\": \"10:15\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/freeTime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freeTime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"availableTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"11:00\"\n        },\n        {\n            \"startTime\": \"13:00\",\n            \"endTime\": \"15:00\"\n        }\n    ],\n    \"meetingTimes\": [\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"9:15\"\n        },\n        {\n            \"startTime\": \"10:00\",\n            \"endTime\": \"10:15\"\n        },\n        {\n            \"startTime\": \"12:30\",\n            \"endTime\": \"16:00\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/freeTime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freeTime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"availableTimes\": [\n        {\n            \"startTime\": \"13:00\",\n            \"endTime\": \"15:00\"\n        },\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"11:00\"\n        }\n    ],\n    \"meetingTimes\": [\n        {\n            \"startTime\": \"12:30\",\n            \"endTime\": \"16:00\"\n        },\n        {\n            \"startTime\": \"9:00\",\n            \"endTime\": \"9:15\"\n        },\n        {\n            \"startTime\": \"10:00\",\n            \"endTime\": \"10:15\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/freeTime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"freeTime"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
